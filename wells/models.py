@@ -1,5 +1,4 @@
 from django.db import models
-
 # Create your models here.
 class Well (models.Model):
     STATUS_CHOICES = [
@@ -24,3 +23,4 @@ class Well (models.Model):
 
     class Meta:
         ordering = ['name']
+

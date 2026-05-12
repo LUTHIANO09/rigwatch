@@ -4,6 +4,7 @@
 
 {% block content %}
 <h1>Active Wells</h1>
+<p>Total Wells: {{total_count}} | Critical: | {{critical_count}}</p>
 <ul>
 {% for well in wells %}
     <li>
