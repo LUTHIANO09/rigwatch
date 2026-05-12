@@ -4,4 +4,4 @@ import datetime
 # Create your views here.
 def home(request):
     date = datetime.datetime.now()
-    return HttpResponse(f'<h1> Welcome to Rigwatch </h1> {date}')
+    return HttpResponse(f'<h1> Welcome to Rigwatch </h1> Today"s Day and Date is "{date}" ')

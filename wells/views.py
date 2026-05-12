@@ -5,7 +5,7 @@ from .models import Well
 # the differences between a project and an app in django is that project is the entire work while the app is created inside the project, which means we can have multiple app in one project
 
 
-# the differences between a project and an app in django is that project is the entire work while the app is created inside the project, which means we can have multiple app in one project
+# the differences between a project and an app in django is that project is the entire work while the app is created inside the project, which means we can have multiple app in one project to perform specific functions
 
 # Create your views here.
 
